@@ -1,0 +1,18 @@
+# 基于组分特征的与基于物理知识的特征关于e_total的模型MSE, MAE
+model_type,feature_type,cluster,MSE,MAE
+LR,composition,0,7341445.44,170.33
+DT,composition,0,7344769.65,74.09
+RF,composition,0,7408782.68,89.60
+NN,composition,0,7363468.07,80.73
+LR,physical,0,7333806.15,105.56
+DT,physical,0,7343687.43,73.66
+RF,physical,0,7418827.78,89.67
+NN,physical,0,7350163.04,98.33
+LR,composition,1,9.395990455942286e+20,682869600.84
+DT,composition,1,11987.71,17.33
+RF,composition,1,10769.10,16.76
+NN,composition,1,10828443.15,95.04
+LR,physical,1,242.01,8.14
+DT,physical,1,288.98,8.14
+RF,physical,1,219.34,7.44
+NN,physical,1,273.29,10.58

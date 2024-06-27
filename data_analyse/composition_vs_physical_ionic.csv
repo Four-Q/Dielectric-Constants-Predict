@@ -1,0 +1,18 @@
+# 基于组分特征的与基于物理知识的特征关于e_ionic的模型MSE, MAE
+model_type,feature_type,cluster,MSE,MAE
+LR,composition,0,7332998.88,81.33
+DT,composition,0,7335899.48,68.99
+RF,composition,0,7338416.79,70.41
+NN,composition,0,735169392,72.03
+LR,physical,0,7333907.20,71.85
+DT,physical,0,7335394.96,68.88
+RF,physical,0,7337099.05,70.61
+NN,physical,0,7334260.75,74.52
+LR,composition,1,1.2176976331739198e+20,245832960.54
+DT,composition,1,5745.45,15.03
+RF,composition,1,1434.16,11.74
+NN,composition,1,18325.56,16.81
+LR,physical,1,171.67,6.79
+DT,physical,1,199.70,6.79
+RF,physical,1,161.60,6.28
+NN,physical,1,139.22,6.74

@@ -1,0 +1,18 @@
+# 基于组分特征的与基于物理知识的特征关于e_electronic的模型MSE, MAE
+model_type,feature_type,cluster,MSE,MAE
+LR,composition,0,27200.54,89.66
+DT,composition,0,9564.85,7.49
+RF,composition,0,46879.62,17.17
+NN,composition,0,24853.30,13.68
+LR,physical,0,10297.30,38.85
+DT,physical,0,8845.80,7.02
+RF,physical,0,65970.62,21.37
+NN,physical,0,19673.19,22.11
+LR,composition,1,3.8486e+20,437036733.32
+DT,composition,1,9180.80,6.24
+RF,composition,1,8733.67,6.04
+NN,composition,1,290842.07,18.57
+LR,physical,1,52.61,2.33
+DT,physical,1,50.29,1.96
+RF,physical,1,39.34,1.60
+NN,physical,1,154.96,7.05
